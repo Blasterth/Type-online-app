@@ -1,22 +1,20 @@
-# Type Online app
+# Online Typing app
 Type fast and compete with your friends.
 
 # Features
-- Create your own acount
+- Create your own account
 - Type as fast as you can and get your speed number
-- Create online competition, give the competition code to your friends and compete with them
+- Create online competition rooms and give the competition room code to your friends and play with them
 - See the best taken tests
 - English & Persian languages
+- Light & Dark modes
 
 # Coming Soon
-- Chat during a competition
 - Profile photo
+- Monthly Challenges
 
-# About me
-Full Name: Matin Ardestani
-
-Age : 14
-
-Location : Tehran, Iran
-
-more Information : [MatinArdestani](https://bioly.io/MatinArdestani)
+# Brought to you by:
+Matin Ardestani & Blasterth
+Location : Tehran Province, Iran
+more Information about Matin Ardestani: [MatinArdestani](https://bioly.io/MatinArdestani)
+more Information about Blasterth: [Blasterth](https://github.com/Blasterth)

@@ -201,7 +201,7 @@
      <string notr="true">color: #010A1A;</string>
     </property>
     <property name="text">
-     <string>Acount Settings</string>
+     <string>Account Settings</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>

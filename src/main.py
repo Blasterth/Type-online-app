@@ -796,7 +796,7 @@ class RootMain(QMainWindow):
             # end competition
             def endCompetition(room_code):
                 connection.ping(reconnect=True)
-                msg_end = QMessageBox.question(self.comPage, 'End Competition', "Do want to end the competition?", QMessageBox.Yes | QMessageBox.No)
+                msg_end = QMessageBox.question(self.comPage, 'End Competition', "Do you want to end the competition?", QMessageBox.Yes | QMessageBox.No)
                 if msg_end == QMessageBox.Yes:
                     self.comPage.close()
                     self.show()
@@ -978,7 +978,7 @@ class RootMain(QMainWindow):
         def joinCompetition():
             # check blanks
             if self.main.join_competition.text().strip() == '':
-                self.main.alarmlb.setText('Please enter competition code')
+                self.main.alarmlb.setText('Please enter competition room code.')
             else:
                 # join to the competition
                 connection.ping(reconnect=True)
@@ -1008,7 +1008,7 @@ class RootMain(QMainWindow):
 
                     competitionPage(str(self.main.join_competition.text()))
                 else:
-                    self.main.alarmlb.setText('This competition does not exists')
+                    self.main.alarmlb.setText('This competition room does not exists!')
 
 
 
@@ -1354,7 +1354,7 @@ class RootMain(QMainWindow):
                 # sidebar
                 self.main.btn_pageTest.setText('Test')
                 self.main.btn_pageAcount.setText('Account')
-                self.main.btn_pageRanking.setText('Ranking')
+                self.main.btn_pageRanking.setText('Rankings')
                 self.main.btn_pageCompetitions.setText('Competitions')
                 self.main.btn_pageSettings.setText('Settings')
                 
@@ -1370,7 +1370,7 @@ class RootMain(QMainWindow):
                 self.main.label_7.setAlignment(Qt.AlignLeft)
                 self.main.label_3.setText('Result:')
                 self.main.label_5.setText('(Words Per Minute)')
-                self.main.btn_acountSettings.setText('Acount Settings')
+                self.main.btn_acountSettings.setText('Account Settings')
                 self.main.btn_logout.setText('Log Out')
                 self.main.acount_email_2.setText('Tests taken:')
                 self.main.acount_email_2.setAlignment(Qt.AlignLeft)
@@ -1386,7 +1386,7 @@ class RootMain(QMainWindow):
                 self.main.ranking_title.setAlignment(Qt.AlignLeft)
                 self.main.ranking_title_2.setText('Create competition')
                 self.main.ranking_title_2.setAlignment(Qt.AlignLeft)
-                self.main.ranking_title_4.setText('(The competition room will be closed when the host end it)')
+                self.main.ranking_title_4.setText('(The competition room will be closed when the host ends it.)')
                 self.main.ranking_title_4.setAlignment(Qt.AlignLeft)
                 self.main.ranking_title_5.setText('Join competition')
                 self.main.ranking_title_5.setAlignment(Qt.AlignLeft)
