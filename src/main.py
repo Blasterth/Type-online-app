@@ -19,7 +19,7 @@ try:
     cursor = connection.cursor()
 except:
     toast = ToastNotifier()
-    toast.show_toast("Warning","Something went wrong!\nChen your internet connection.",duration=20,icon_path=("%s/img/logo.ico"%path))
+    toast.show_toast("Warning","Something went wrong!\nCheck your internet connection.",duration=20,icon_path=("%s/img/logo.ico"%path))
     exit()
 
 cursor.execute("SELECT * FROM words;")

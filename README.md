@@ -1,6 +1,8 @@
-
 # Online Typing app
 Type fast and compete with your friends.
+
+# Introduction
+Many people use a keyboard during their everyday life, whether they are working with a PC or laptop, working in a small store or in an office. All of this people have something in common: All of them need typing skills. [Type online app](https://github.com/Matin-Ardestani/Type-online-app) allows you to test yourself by typing ordinary words.
 
 # Introduction
 Many people use a keyboard during their everyday life, whether they are working with a PC or laptop, working in a small store or in an office. All of this people have something in common: All of them need typing skills. [Type online app](https://github.com/Matin-Ardestani/Type-online-app) allows you to test yourself by typing ordinary words.
@@ -10,13 +12,13 @@ Many people use a keyboard during their everyday life, whether they are working 
 - Create your own account
 - Type as fast as you can and get your speed number
 - Create your online competition room and give the competition room code to your friends and play with them
+- Create online competition rooms and give the competition room codes to your friends and compete with them
 - See the best taken tests
 - English & Persian languages
-- Light & Dark modes
 
-# Coming Soon
-- Profile photo
-- Monthly Challenges
+# About me
+Programmer: Matin Ardestani
+
 
 # Brought to you by:
 Matin Ardestani & Blasterth
@@ -30,6 +32,11 @@ Programmer: Matin Ardestani
 Tester & guide producer: Blasterth
 
 Location : Tehran Province, Iran
+
+Tester & guide producer: @Blasterth
+
+Location : Tehran, Iran
+
 
 more Information : [MatinArdestani](https://bioly.io/MatinArdestani),[Blasterth](https://www.github.com/blasterth)
 
@@ -80,8 +87,8 @@ If nobody uses the room for 48 hours, the room will be
 automatically deleted.
 
 # Settings
-- Switch between English and Persian language
-- Switch between Light and Dark mode.
+- Switch between English and Persian languages
+- Switch between Light and Dark modes
 
 # Comming Soon
 - Persian typing test
@@ -134,5 +141,3 @@ automatically deleted.
 - عکس نمایه
 
 **ممنون بابت توجه شما**
-
-
